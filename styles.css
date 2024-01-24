@@ -1,119 +1,180 @@
-body{background-color: lightgray;color:black;padding:0;margin:0;box-sizing: border-box;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+body{margin:0;padding:0;background-color: white;width:1500px;
+    box-sizing: border-box;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.main{background-color: orange;}
+.header{display: flex;position: relative;margin-bottom:2px;}
+.logo{margin-left:45px;margin-top:20px;}
+.menu{display: flex;position: absolute; top:70px;right:20px;}
+.menu a{margin-right: 60px;color:black;text-decoration: none;}
+.menu a{margin-right: 30px;}
+.middle{position: relative;}
 
-.header{background-color:white;padding:40px;display: flex;justify-content: space-between;
+.middle h2{position:absolute;background-color: white;
+  color:black;
+  font-size:45px;top:570px;left:500px;}
+.start{text-transform: uppercase;}
+.picture1{position: relative;}
 
+
+.contents1{margin-left: 400px;
+  margin-top:50px;margin-bottom: 40px;}
+
+.paragraph2{margin-left: 300px;}
+
+.pictures2{display: flex;flex-direction: row;
+  margin-left: 450px;}
+.pictures2 img{margin-right:10px;}
+.pictures2 h6{margin-right: 20px;margin-top:10px;}
+
+.photo1 , .photo2 , .photo3  {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+  position: relative;}
+
+.container2{background-color: rgb(174, 170, 170);
+  padding:50px;
 }
-.logo{justify-content: flex-start;}
-#red{color:rgb(211, 35, 35);font-weight:bold;font-size: 25px;}
-#green{color:rgb(89, 193, 51);font-weight:bold;font-size: 25px;}
+  
+ .contents2{margin-left:360px;}
+.contents2 h2{margin-top: 20px;}
+.contents2 p{margin-top: 30px;}
 
+.pictures3{display: flex;flex-direction: row;
+justify-content: center;margin-right:300px;
+;}
+.a1,.a2,.a3,.a4{margin-right: 25px;}
 
-.menu a{justify-content: flex-end;
-    text-decoration: none;
-    margin-right:40px;color:black;}
+  .a1 h6,.a2 h6,.a3 h6,.a4 h6{background-color: white;
+  margin-top:-4px;padding:8px
+;text-align: center;}
+  
 
- .paragraph1 h2{font-size: 50px;font-weight: 70px;}
-   
-
-.contents{display: flex;flex-direction:row;margin-right:170px;
-    
-justify-content: space-evenly;}
-.contentLeft{
-    width:200px;
-    margin-left:40px;
-    margin-top: 85px;
-    
+.last{position: relative;
+  display: flex;flex-direction: column;
+  margin-left: 65px;
 }
-.contentLeft h2.p1{margin-bottom:-2em;}
-.contentLeft h2.p2{margin-top:1em;}
+.paragraph4{margin-left: 360px;}
 
-.photos{justify-content:flex-end;display: flex;margin-top:140px;
-    position: relative;
+
+.picture1{display: flex;
+flex-direction: row;justify-content: center;}
+
+
+.pic1,.pic2,.pic3{margin-right:10px;}
+
+.pic1 h6{text-align: center;margin-top: 5px;}
+.pic2 h6{text-align: center;margin-top: 5px;}
+.pic3 h6{text-align: center;margin-top: 5px;}
+
+
+
+
+
+
+
+.footer{background-color: orange;position: relative;}
+.logo2{margin-left:40px;display: flex;justify-content:space-between;}
+.menu2{position:absolute;top:20px;right:20px;display: flex;}
+.menu2 a{margin-right: 45px;text-decoration: none;color:black}
+
+
+
+
+  
+  /** recipe*/
+
+
+
+ 
+
+.container{background-color: gray;padding: 20px;}
+.texting{margin-left: 200px;}
+
+.texting h2 {margin-top: 0;}
+
+ 
+  .paragraph{display: flex;flex-direction: row;}
+  .paragraph h6{margin-right:20px;}
+  .moreinfo{display: flex; flex-direction: row;}
+  .moreinfo h6{margin-right: 20px;}
+  .bold{font-weight: bolder;text-transform: capitalize;}
+  h6{font-size: 17px;}
+ 
+  .bengal{
+    display: flex;
+    flex-direction: column;
+  }
+  .star {
+    color:darkred;
+    justify-content: center;
+    display: flex;
     
-}
-#photo1{margin-right:15px;position: relative;}
+  }
+  .tink{
+    margin-left:20px;
+    color:black;
+  }
 
-#photo1 h2.first{
-    position:absolute;
-    top:310px;
-    left:214px;
-    background-color:#fff;
-    padding:4px;
+  .together{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-top:20px;
+  }
+
+  .button{
+    border-radius:30px;
+    width:100px;
+    background-color:darkred;
+    color:white;
+    margin-right: 30px;
+  }
+
+  .printer{
+    margin-right: 10px;
+  }
+
+  .bengal h2{
+    font-size:30px;
+    text-align:center;
     text-transform:uppercase;
-}
-
-#photo2{margin-right: 15px;}
-
-#photo1 h2.second{    
-    position:absolute;
-    top:344px;
-    left:105px;
-    background-color:rgb(89, 193, 51);
-    color:#fff;
-    text-transform:uppercase;
-    width:65%;
-    bottom:3px;
-    margin-bottom: 0;
-    text-align: right;
-
-}
-
-.contentLeft h2{
-    font-size:40px;
-    margin:0px;
-    padding-top:40px;
-}
-
-#photo2{position: relative;}
-#photo2 h2.first{position:absolute;
-top:310px;
-left:214px;
-background-color: white;
-padding:7px;}
-
-
-
-
-#photo2 h2.second{    
-    position:absolute;
-    top:344px;
-    left:105px;
-    bottom:3px;
-    background-color:rgb(89, 193, 51);
-    color:#fff;
-    text-transform:uppercase;
-    display:inline-block;
-    text-align: right;
-    margin-bottom:0;
-    width: 65%;
-    box-sizing: border-box;
-    
-}
-#photo3{position: relative;}
-
-#photo3 h2.first{position:absolute;
-    top:310px;
-    left:156px;
-    background-color: white;
-    padding:7px;
-text-align: center;
-text-transform: uppercase;}
-
-    #photo3 h2.second{    
-        position:absolute;
-        top:344px;
-        left:105px;
-        bottom: 3px;
-       margin-bottom:0px;
-        background-color:rgb(89, 193, 51);
-        color:#fff;
-        text-transform:uppercase;
-        display: inline-block;
-        width:65%;
-       box-sizing: content-box;
-       text-align: right;
-        
+  }
+  
+    .sentence2{
+      margin:0 auto;
+      width:1000px;
+      padding:60px;
+      background-color: rgb(226, 226, 223);
+      font-size: medium;
+      
     }
+    .spacer{
+      height:30px;
+      
+    }
+    .column{
+      margin:0 auto;
+      width:1000px;
+      display:flex;
+    }
+    
+    .ingredients{
+      width:50%;
+    
+    }
+    .directions{
+      width:50%;
+    
+      margin-bottom: 50px;
+
+    }
+
+.order li{margin-bottom: 10px;}
+.ingredients h2{margin-left: 25px;}
+.ingredients h3{margin-left: 40px;}
+.small{margin:0;}
+
+
 
 
